@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/league-of-legends-event/static/css/main.01a958b6.css",
+    "main.js": "/league-of-legends-event/static/js/main.8ba1a3ce.js",
+    "static/media/VITRO CORE TTF.ttf": "/league-of-legends-event/static/media/VITRO CORE TTF.82a2b0ef9f7a3886a8cd.ttf",
+    "index.html": "/league-of-legends-event/index.html",
+    "main.01a958b6.css.map": "/league-of-legends-event/static/css/main.01a958b6.css.map",
+    "main.8ba1a3ce.js.map": "/league-of-legends-event/static/js/main.8ba1a3ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01a958b6.css",
+    "static/js/main.8ba1a3ce.js"
+  ]
+}
