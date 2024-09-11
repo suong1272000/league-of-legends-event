@@ -25,7 +25,7 @@ const PlayTimeItems_inActive = ({
 		justifyContent: "space-between",
 		position: "relative",
 		alignItems: "center",
-		background: "url(/item_box_frame.png) no-repeat 50%",
+		background: `url(${process.env.PUBLIC_URL}/item_box_frame.png) no-repeat 50%`,
 		height: "560px",
 		width: "292px",
 	};
@@ -63,7 +63,7 @@ const PlayTimeItems_inActive = ({
 		margin: "0 auto 24px",
 	};
 	const lineStyle: CSSProperties = {
-		background: "url(/line.png) no-repeat 50%",
+		background: `url(${process.env.PUBLIC_URL}/line.png) no-repeat 50%`,
 		height: "10px",
 		margin: "0 auto",
 		maxWidth: "170px",

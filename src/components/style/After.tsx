@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const After = styled.div`
-  background: url(/Pattern02.5888be2b14b5c0d295ea.svg) no-repeat;
+  background: url(${process.env.PUBLIC_URL}/Pattern02.5888be2b14b5c0d295ea.svg) no-repeat;
   bottom: 15%;
   opacity: 40%;
   right: 0;

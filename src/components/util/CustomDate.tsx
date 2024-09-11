@@ -39,7 +39,7 @@ const CustomDate = () => {
 	return (
 		<a style={Styles}>
 			<img
-				src="/reload.c8f3f334ef34379ab3f101cc470d3cb1.svg"
+				src={`${process.env.PUBLIC_URL}/reload.c8f3f334ef34379ab3f101cc470d3cb1.svg`}
 				alt="reload"
 				id="reloadImage"
 			/>

@@ -25,7 +25,7 @@ const PlayTimeHours = () => {
 	};
 	const spanStyles: CSSProperties = {
 		backgroundColor: "#00041d",
-		backgroundImage: "url(/Subtraction.427dc93ac4fc1c0e0106.svg)",
+		backgroundImage: `url(${process.env.PUBLIC_URL}/Subtraction.427dc93ac4fc1c0e0106.svg)`,
 		backgroundPosition: "center 50%",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "24px 24px",
@@ -43,8 +43,7 @@ const PlayTimeHours = () => {
 				<span
 					style={{
 						...spanStyles,
-						backgroundImage:
-							"url(/ActiveSubtraction.88d27c6b97a703e4195c.svg)",
+						backgroundImage: `url(${process.env.PUBLIC_URL}/ActiveSubtraction.88d27c6b97a703e4195c.svg)`,
 					}}
 				></span>
 				<span>0</span>
